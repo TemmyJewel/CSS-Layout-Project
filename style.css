@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    color: #333;
+    font-family: "poppins", sans-serif;
+    line-height: 1.4;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8% 16%;
+}
+
+nav img{
+    width: 268px;
+    height: 33px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0px 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ababab;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.active_link, nav ul li a:hover{
+    color: #00b39b;
+}
+
+/* .............introsection........... */
+.introsection{
+    text-align: center;
+    padding: 5% 200px;
+}
+
+.introsection img{
+    width: 40px;
+    height: 40px;
+}
+
+.introsection h1{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #00b39b;
+}
+
+.paragraphs{
+    padding-top: 30px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #3b3b3b;
+}
+
+.paragraphs p{
+    width: 400px;
+    text-align: left;
+    margin-left: 60px;  
+}
+
+/* <!-- .............forsection........... --> */
+.forsection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+     padding: 100px 125px 0; 
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 35px auto 25px;
+    color: #fff;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.for{
+    flex-basis: 30%;
+}
+ .for i{
+    font-size: 20px;
+} 
+ .for h2{
+    font-size: 30px;
+    font-weight: 400;
+} 
+.for p{
+    font-size: 20px;
+    font-weight: 300;
+} 
+
+.for select{
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+} 
+
+.forPa{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.forPa select{
+    background-color: #00ccb1;
+    color: #fff;
+}
+
+.forDoc{
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.forDoc select{
+    background-color: #3d83df;
+    color: #fff;
+}
+
+.forCli{
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.forCli select{
+    background-color: #1b2734;
+    color: #fff;
+}
+
+/* .............section3.............. */
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.section3 p{
+    width: 30%;
+    font-size: 20px;
+    margin: 10px 0 25px;
+    padding: 0px 100px 0px 100px; 
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+.section3 div{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.section3 div img{
+    width: 100px;
+    object-fit: contain;
+}
+
+/* .............section4.............. */
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #d0faf4;
+    margin-top: 55px;
+    padding-left: 50px;
+}
+
+.section4a{
+    padding-top: 60px;
+    padding-left: 70px;
+}
+
+.section4a h2{
+    color: #00b39b;
+    font-weight: 200;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.section4a p{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #747474;
+    padding-bottom: 50px;
+    margin: 0 0 10px;
+    
+}
+
+ .section4a img{
+    width: 400px;
+    overflow: clip;
+}
+
+.section4b{
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.section4b div{
+    height: 500px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.leader, .patients, .appointments, .doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.leader{
+    margin-bottom: 20px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.appointments{
+    margin-bottom: 20px;
+}
+
+.leader img, .patients img, .appointments img, .doctors img{
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.section4b h4{
+    font-size: 25px;
+    color: #00b39b;
+    font-weight: 200;
+    letter-spacing: -0.3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section4b p{
+    font-size: 0.8125em;
+    font-weight: 400;
+    color: #747474;
+}
+
+/* <!-- .............fifth section........... --> */
+.section5{
+    display: block;
+    padding-top: 85px;
+}
+
+.section5 h3{
+    font-size: 30px;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.section5 p {
+    margin: 20px 0;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 400;
+    color: #747474;
+}
+
+/* <!-- .............sixth section........... --> */
+.places{
+    margin: 170px;
+    font-weight: 300;
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    row-gap: 7px;
+    
+}
+
+.countries div{
+    border-radius: 7px;
+    width: 312px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+.countries div:hover{
+    box-shadow: 4px 2px 20px #c7c6c6;
+}
+
+.countries .btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 7px;
+}
+
+
+
+.countries .btn button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: #3d83df;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 18px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* <!-- .............seventh section........... --> */
+.section7{
+    margin: 170px;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content button{
+    margin-top: 5px;
+    background: #3d83df;
+    color: #fff;
+    font-weight: 500;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* ...........footer.............. */
+footer{
+  margin: 50px;
+  color: #ababab;
+}
+
+.end{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.end p{
+    
+    padding-top: 20px;
+}
+
+.end a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.end a:hover{
+    text-decoration: underline;
+}
